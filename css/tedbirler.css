@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('../Gotham-Bold.otf') format('opentype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.tedbir-container{
+    display: flex;
+    justify-content: center;
+    padding: 0 63px;
+}
+.tedb-gelecek{
+    width: 1400px;
+    min-height: 1272px;
+    background-color: #F3F3F3;
+    border-radius: 32px;
+    padding: 60px 80px 40px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tedb-gelecek h2{
+    font-family: Gotham;
+    font-size: 40px;
+    font-weight: 700;
+}
